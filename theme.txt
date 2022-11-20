@@ -1,7 +1,8 @@
-#FUNCTIONS COLOR 			#D35400 - ORANGE			KEYWORD1
-#FUNCTIONS COLOR			#D35400 - ORANGE			KEYWORD2
-#STRUCTURE COLORS 			#5E6D03 - GREEN				KEYWORD3
-#VARIABLES COLOR 			#00979C - BLUE				LITERAL1
+#FUNCTIONS COLOR 			#D35400 - ORANGE		KEYWORD1
+#FUNCTIONS COLOR			#D35400 - ORANGE		KEYWORD2
+#STRUCTURE COLORS 			#728E00 - GREEN			KEYWORD3
+#CONSTANTS COLOR 			#00979C - BLUE			LITERAL1
+#VARIABLES COLOR 			#00979C - BLUE			LITERAL2
 
 #ERROR COLOR				#A61717 - RED
 #COMMENTS // COLOR			#95A5A6 - LIGHT GREY
@@ -36,6 +37,21 @@ console.error.color = #E34C00
 buttons.bgcolor = #505050
 buttons.status.font = SansSerif,plain,12
 buttons.status.color = #ffffff
+
+# GUI - PLOTTING
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.gridcolor = #f0f0f0
+plotting.boundscolor = #000000
+plotting.graphcolor.size = 8
+plotting.graphcolor.00 = #0000FF
+plotting.graphcolor.01 = #FF0000
+plotting.graphcolor.02 = #009900
+plotting.graphcolor.03 = #FF9900
+plotting.graphcolor.04 = #CC00CC
+plotting.graphcolor.05 = #666666
+plotting.graphcolor.06 = #00CCFF
+plotting.graphcolor.07 = #000000
 
 # GUI - LINESTATUS
 linestatus.color = #ffffff
@@ -78,23 +94,30 @@ editor.brackethighlight.color = #006699
 
 # TEXT - KEYWORDS
 
-# FUNCTIONS
-editor.keyword1.style = #d35400,bold
-editor.data_type.style = #d35400,bold
+# FUNCTIONS (greeny blue)
+editor.keyword1.style = #4ec9b0,plain
+editor.data_type.style = #4ec9b0,plain
+### editor.keyword1.style = #d35400,bold
+### editor.data_type.style = #d35400,bold
 
-# METHODS
-editor.keyword2.style = #D35400,plain
+# METHODS (red)
+editor.keyword2.style = #d35400,plain
 editor.function.style = #d35400,plain
+### editor.keyword2.style = #D35400,plain
+### editor.function.style = #d35400,plain
 
-# STRUCTURES
-editor.keyword3.style = #5E6D03,plain
-editor.reserved_word.style = #5E6D03,plain
+# STRUCTURES (goldish)
+editor.keyword3.style = #dcdcaa,plain
+editor.reserved_word.style = #dcdcaa,plain
+### editor.keyword3.style = #5E6D03,plain
+### editor.reserved_word.style = #5E6D03,plain
 
 
 # TEXT - LITERALS
 
-# constants & datatypes
-editor.literal1.style = #006699,plain
+# constants & datatypes (cold blue)
+editor.literal1.style = #569cd6,plain
+### editor.literal1.style = #006699,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
 editor.literal2.style = #00979C,plain
@@ -102,14 +125,19 @@ editor.variable.style = #00979C,plain
 editor.reserved_word_2.style = #00979C,plain
 editor.literal_boolean.style = #00979C,plain
 editor.literal_char.style = #00979C,plain
-editor.literal_string_double_quote.style = #00979C,plain
-editor.preprocessor.style = #5E6D03,plain
+
+editor.literal_string_double_quote.style = #ab7a66,plain
+### editor.literal_string_double_quote.style = #00979C,plain
+
+editor.preprocessor.style = #c586c0,plain
+### editor.preprocessor.style = #5E6D03,plain
 
 # http://www.arduino.cc/ - GET RID OF UNDERLINE!
 editor.url.style = #81A421,plain
 
 # e.g. + - = /
-editor.operator.style = #aaaaaa,plain
+editor.operator.style = #d4d4d4,plain
+### editor.operator.style = #aaaaaa,plain
 
 
 # ?? maybe this is for words followed by a colon
@@ -117,21 +145,13 @@ editor.operator.style = #aaaaaa,plain
 editor.label.style = #7e7e7e,bold
 
 
-# TEXT - COMMENTS
-editor.comment1.style = #aaaaaa,plain
-editor.comment2.style = #aaaaaa,plain
-
+# TEXT - COMMENTS (line & multiline)
+editor.comment1.style = #679553,plain
+editor.comment2.style = #679553,plain
+### editor.comment1.style = #aaaaaa,plain
+### editor.comment2.style = #aaaaaa,plain
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
 linestatus.font	   = SansSerif,plain,10
 linestatus.height  = 20
 
-# GUI - PLOTTING
-# color cycle created via colorbrewer2.org
-plotting.bgcolor = #ffffff
-plotting.color = #ffffff
-plotting.graphcolor.size = 4
-plotting.graphcolor.00 = #2c7bb6
-plotting.graphcolor.01 = #fdae61
-plotting.graphcolor.02 = #d7191c
-plotting.graphcolor.03 = #abd9e9
