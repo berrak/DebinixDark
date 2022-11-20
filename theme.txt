@@ -110,8 +110,8 @@ editor.literal1.style = #569cd6,plain
 # constants & datatypes (light blue)
 editor.literal2.style = #9cdcfe,plain
 
-# ????
-editor.variable.style = #43e73a,plain
+# ???? (orange) to find usage.
+editor.variable.style = #dd8800,plain
 
 # constants & datatypes (cold blue)
 editor.reserved_word_2.style = #569cd6,plain
