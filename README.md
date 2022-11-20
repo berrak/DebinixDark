@@ -39,4 +39,4 @@ Any extra files bundled and included in the theme folder do not negatively affec
 
 ## Credits
 
-The `DebinixDark` theme continues in the footsteps of the previous work by [Jeff Thompson](https://github.com/jeffThompson/DarkArduinoTheme) and others. Unfortunately, the original theme is no longer maintained.
+The `DebinixDark` theme continues in the footsteps of the previous work by [Jeff Thompson](https://github.com/jeffThompson/DarkArduinoTheme) and others.
