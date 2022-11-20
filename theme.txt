@@ -62,7 +62,6 @@ linestatus.bgcolor = #404040
 # foreground and background colors
 editor.fgcolor = #d9d9d9
 editor.bgcolor = #1e1e1e
-### editor.bgcolor = #202020
 
 # highlight for the current line
 editor.linehighlight.color=#333333
@@ -74,11 +73,9 @@ editor.caret.color = #a0a0a0
 
 # color to be used for background when 'external editor' enabled
 editor.external.bgcolor = #1e1e1e
-### editor.external.bgcolor = #202020
 
 # selection color
 editor.selection.color = #264778
-### editor.selection.color = #dd8800
 
 # area that's not in use by the text (replaced with tildes)
 editor.invalid.style = #7e7e7e,bold
@@ -97,59 +94,44 @@ editor.brackethighlight.color = #006699
 # FUNCTIONS (greeny blue)
 editor.keyword1.style = #4ec9b0,plain
 editor.data_type.style = #4ec9b0,plain
-### editor.keyword1.style = #d35400,bold
-### editor.data_type.style = #d35400,bold
 
 # METHODS (red)
 editor.keyword2.style = #d35400,plain
 editor.function.style = #d35400,plain
-### editor.keyword2.style = #D35400,plain
-### editor.function.style = #d35400,plain
 
 # STRUCTURES (goldish)
 editor.keyword3.style = #dcdcaa,plain
 editor.reserved_word.style = #dcdcaa,plain
-### editor.keyword3.style = #5E6D03,plain
-### editor.reserved_word.style = #5E6D03,plain
-
 
 # TEXT - LITERALS
 
 # constants & datatypes (cold blue)
 editor.literal1.style = #569cd6,plain
-### editor.literal1.style = #006699,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
 editor.literal2.style = #00979C,plain
 editor.variable.style = #00979C,plain
 editor.reserved_word_2.style = #00979C,plain
 editor.literal_boolean.style = #00979C,plain
-editor.literal_char.style = #ab7a66,plain
 
+editor.literal_char.style = #ab7a66,plain
 editor.literal_string_double_quote.style = #ab7a66,plain
-### editor.literal_string_double_quote.style = #00979C,plain
 
 editor.preprocessor.style = #c586c0,plain
-### editor.preprocessor.style = #5E6D03,plain
 
-# http://www.arduino.cc/ - GET RID OF UNDERLINE!
+# http://www.arduino.cc/ - disable underline
 editor.url.style = #81A421,plain
 
 # e.g. + - = /
 editor.operator.style = #d4d4d4,plain
-### editor.operator.style = #aaaaaa,plain
-
 
 # ?? maybe this is for words followed by a colon
 # like in case statements or goto
 editor.label.style = #7e7e7e,bold
 
-
 # TEXT - COMMENTS (line & multiline)
 editor.comment1.style = #679553,plain
 editor.comment2.style = #679553,plain
-### editor.comment1.style = #aaaaaa,plain
-### editor.comment2.style = #aaaaaa,plain
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
 linestatus.font	   = SansSerif,plain,10
