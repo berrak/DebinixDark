@@ -11,7 +11,7 @@
    <!--<baseFont family="..." size="13"/>-->
 
    <!--  General editor colors. -->
-   <background color="293134"/>
+   <background color="1E1E1E"/>
    <caret color="c1cbc2"/>
    <selection useFG="false" bg="404E51" roundedEdges="false"/>
    <currentLineHighlight color="2F393C" fade="false"/>
@@ -34,15 +34,15 @@
 
    <!-- Syntax tokens. -->
    <tokenStyles>
-      <style token="IDENTIFIER" fg="E0E2E4"/>
+      <style token="IDENTIFIER" fg="9CDCFE"/>
       <style token="RESERVED_WORD" fg="93C763" bold="true"/>
       <style token="RESERVED_WORD_2" fg="93C763" bold="true"/>
-      <style token="ANNOTATION" fg="aaaaaa"/>
+      <style token="ANNOTATION" fg="AAAAAA"/>
       <style token="COMMENT_DOCUMENTATION" fg="6C788C"/>
       <style token="COMMENT_EOL" fg="66747B"/>
       <style token="COMMENT_MULTILINE" fg="66747B"/>
-      <style token="COMMENT_KEYWORD" fg="ae9fbf"/>
-      <style token="COMMENT_MARKUP" fg="ae9fbf"/>
+      <style token="COMMENT_KEYWORD" fg="AE9FBF"/>
+      <style token="COMMENT_MARKUP" fg="AE9FBF"/>
       <style token="FUNCTION" fg="E0E2E4"/>
       <style token="DATA_TYPE" fg="678CB1" bold="true"/>
       <style token="LITERAL_BOOLEAN" fg="B5CEA8"/>
@@ -60,14 +60,14 @@
       <style token="MARKUP_DTD" fg="A082BD"/>
       <style token="MARKUP_PROCESSING_INSTRUCTION" fg="A082BD"/>
       <style token="MARKUP_CDATA" fg="d5e6f0"/>
-      <style token="MARKUP_CDATA_DELIMITER" fg="ae9fbf"/>
+      <style token="MARKUP_CDATA_DELIMITER" fg="AE9FBF"/>
       <style token="MARKUP_ENTITY_REFERENCE" fg="678CB1"/>
       <style token="OPERATOR" fg="D4D4D4"/>
       <style token="PREPROCESSOR" fg="A082BD"/>
       <style token="REGEX" fg="d39745"/>
-      <style token="SEPARATOR" fg="aaaaaa"/>
-      <style token="VARIABLE" fg="ae9fbf" bold="true"/>
-      <style token="WHITESPACE" fg="E0E2E4"/>
+      <style token="SEPARATOR" fg="FED600"/>
+      <style token="VARIABLE" fg="9CDCFE"/>
+      <style token="WHITESPACE" fg="1E1E1E"/>
 
       <style token="ERROR_IDENTIFIER" fg="E0E2E4" bg="04790e"/>
       <style token="ERROR_NUMBER_FORMAT" fg="E0E2E4" bg="04790e"/>

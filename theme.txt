@@ -91,32 +91,39 @@ editor.brackethighlight.color = #006699
 
 # TEXT - KEYWORDS
 
-# FUNCTIONS (greeny blue)
+# FUNCTIONS (greeny blue, bold)
 editor.keyword1.style = #4ec9b0,plain
-editor.data_type.style = #4ec9b0,plain
+editor.data_type.style = #4ec9b0,bold
 
-# METHODS (red)
-editor.keyword2.style = #d35400,plain
-editor.function.style = #d35400,plain
+# METHODS (greeny blue)
+editor.keyword2.style = #4ec9b0,plain
+editor.function.style = #4ec9b0,plain
 
-# STRUCTURES (goldish)
-editor.keyword3.style = #dcdcaa,plain
-editor.reserved_word.style = #dcdcaa,plain
+# PGM LANG STRUCTURES (light blue)
+editor.keyword3.style = #9cdcfe,plain
+editor.reserved_word.style = #9cdcfe,plain
 
 # TEXT - LITERALS
 
 # constants & datatypes (cold blue)
 editor.literal1.style = #569cd6,plain
+# constants & datatypes (light blue)
+editor.literal2.style = #9cdcfe,plain
 
-# p5 built in variables: e.g. mouseX, width, pixels
-editor.literal2.style = #00979C,plain
-editor.variable.style = #00979C,plain
-editor.reserved_word_2.style = #00979C,plain
-editor.literal_boolean.style = #00979C,plain
+# ????
+editor.variable.style = #43e73a,plain
 
+# constants & datatypes (cold blue)
+editor.reserved_word_2.style = #569cd6,plain
+
+# constants & datatypes (cold blue)
+editor.literal_boolean.style = #569cd6,plain
+
+# constants & datatypes (brownish)
 editor.literal_char.style = #ab7a66,plain
 editor.literal_string_double_quote.style = #ab7a66,plain
 
+# constants & datatypes (dark lilac)
 editor.preprocessor.style = #c586c0,plain
 
 # http://www.arduino.cc/ - disable underline
