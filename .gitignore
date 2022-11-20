@@ -16,7 +16,6 @@ _clang-format
 *.bak
 
 # Build and test
-Makefile
 test/
 build/
 
