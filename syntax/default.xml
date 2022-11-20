@@ -36,7 +36,7 @@
    <tokenStyles>
       <style token="IDENTIFIER" fg="9CDCFE"/>
       <style token="RESERVED_WORD" fg="93C763" bold="true"/>
-      <style token="RESERVED_WORD_2" fg="93C763" bold="true"/>
+      <style token="RESERVED_WORD_2" fg="93C763"/>
       <style token="ANNOTATION" fg="AAAAAA"/>
       <style token="COMMENT_DOCUMENTATION" fg="6C788C"/>
       <style token="COMMENT_EOL" fg="66747B"/>

@@ -91,9 +91,9 @@ editor.brackethighlight.color = #006699
 
 # TEXT - KEYWORDS
 
-# FUNCTIONS (greeny blue, bold)
+# FUNCTIONS (greeny blue)
 editor.keyword1.style = #4ec9b0,plain
-editor.data_type.style = #4ec9b0,bold
+editor.data_type.style = #4ec9b0,plain
 
 # METHODS (greeny blue)
 editor.keyword2.style = #4ec9b0,plain
