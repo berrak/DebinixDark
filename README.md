@@ -43,7 +43,7 @@ Copy the new zip archive to your `Arduino sketchbook/theme` folder. You must cre
 Install the `zip` utility to create the archive manually. The option `-x` can be used to exclude non-theme files.
 
 ```
-zip -r DebinixDark.zip * -x "*zip" -x  -x "*Makefile*"
+zip -r DebinixDark.zip * -x "*zip" -x "*Makefile*"
 ```
 Copy the zip archive to your `Arduino sketchbook/theme` folder. You must create the `theme` folder if this is your first custom theme.
 
