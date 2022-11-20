@@ -91,17 +91,17 @@ editor.brackethighlight.color = #006699
 
 # TEXT - KEYWORDS
 
-# FUNCTIONS (greeny blue)
-editor.keyword1.style = #4ec9b0,plain
-editor.data_type.style = #4ec9b0,plain
+# FUNCTIONS (light blue)
+editor.keyword1.style = #9cdcfe,plain
+editor.data_type.style = #9cdcfe,plain
 
-# METHODS (greeny blue)
-editor.keyword2.style = #4ec9b0,plain
-editor.function.style = #4ec9b0,plain
+# METHODS (light blue)
+editor.keyword2.style = #9cdcfe,plain
+editor.function.style = #9cdcfe,plain
 
-# PGM LANG STRUCTURES (light blue)
-editor.keyword3.style = #9cdcfe,plain
-editor.reserved_word.style = #9cdcfe,plain
+# PGM LANG STRUCTURES (dark lilac)
+editor.keyword3.style = #c586c0,plain
+editor.reserved_word.style = #c586c0,plain
 
 # TEXT - LITERALS
 
