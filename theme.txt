@@ -45,7 +45,8 @@ linestatus.bgcolor = #404040
 
 # foreground and background colors
 editor.fgcolor = #d9d9d9
-editor.bgcolor = #202020
+editor.bgcolor = #1e1e1e
+### editor.bgcolor = #202020
 
 # highlight for the current line
 editor.linehighlight.color=#333333
@@ -56,10 +57,12 @@ editor.linehighlight=true
 editor.caret.color = #a0a0a0
 
 # color to be used for background when 'external editor' enabled
-editor.external.bgcolor = #202020
+editor.external.bgcolor = #1e1e1e
+### editor.external.bgcolor = #202020
 
 # selection color
-editor.selection.color = #dd8800
+editor.selection.color = #264778
+### editor.selection.color = #dd8800
 
 # area that's not in use by the text (replaced with tildes)
 editor.invalid.style = #7e7e7e,bold
