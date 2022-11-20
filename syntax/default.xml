@@ -49,8 +49,8 @@
       <style token="LITERAL_NUMBER_DECIMAL_INT" fg="B5CEA8"/>
       <style token="LITERAL_NUMBER_FLOAT" fg="B5CEA8"/>
       <style token="LITERAL_NUMBER_HEXADECIMAL" fg="B5CEA8"/>
-      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="EC7600"/>
-      <style token="LITERAL_CHAR" fg="EC7600"/>
+      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="AB7A66"/>
+      <style token="LITERAL_CHAR" fg="AB7A66"/>
       <style token="LITERAL_BACKQUOTE" fg="EC7600"/>
       <style token="MARKUP_TAG_DELIMITER" fg="678CB1"/>
       <style token="MARKUP_TAG_NAME" fg="ABBFD3" bold="true"/>
@@ -62,7 +62,7 @@
       <style token="MARKUP_CDATA" fg="d5e6f0"/>
       <style token="MARKUP_CDATA_DELIMITER" fg="ae9fbf"/>
       <style token="MARKUP_ENTITY_REFERENCE" fg="678CB1"/>
-      <style token="OPERATOR" fg="aaaaaa"/>
+      <style token="OPERATOR" fg="D4D4D4"/>
       <style token="PREPROCESSOR" fg="A082BD"/>
       <style token="REGEX" fg="d39745"/>
       <style token="SEPARATOR" fg="aaaaaa"/>
